@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 //import styles from './App.module.css';
 
-function App() {
+function SocketTest() {
 
   //const wsc = new WebSocket('wss://localhost:3000');
   const wsc = new WebSocket('ws://localhost:3000');
@@ -17,18 +17,11 @@ function App() {
     wsc.send('hello')
   });
 
-  
-
   return (
     <div>
-      <header>
-        <p>
-          Edit
-        </p>
-      </header>
-      <p> Test </p>
+      <p> SocketTest </p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default SocketTest;

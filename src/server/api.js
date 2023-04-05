@@ -1,9 +1,13 @@
 import express from 'express'
 
+import auth from "./mongoose/auth/auth.js"
+
 //var app = express()
 var userRouter = express.Router()
 
-userRouter.use(express.json())
+userRouter.use('/auth',auth)
+
+//userRouter.use(express.json())
 userRouter.route('/echo')
   .get(function (req, res) {
       res.status(200)

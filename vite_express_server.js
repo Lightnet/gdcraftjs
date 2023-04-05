@@ -13,6 +13,7 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+import { setupDatabase } from './src/libs/db/mongoose/database.js';
 import api from './src/server/api.js'
 
 import { WebSocket, WebSocketServer } from 'ws';
@@ -24,6 +25,9 @@ import { createServer as createViteServer } from 'vite'
 console.log("srcipt server.js")
 
 async function createServer() {
+
+  await setupDatabase();
+  
   const app = express()
   app.use(express.json())
 
