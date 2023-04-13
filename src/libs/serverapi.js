@@ -1,12 +1,12 @@
 /*
-  Project Name: solid-js-sandbox
+  Project Name: gdcraftjs
   License: MIT
   Created by: Lightnet
 */
+
 /*
   Information:
     For JWT and node api 
-
 */
 
 // https://stackabuse.com/encoding-and-decoding-base64-strings-in-node-js/

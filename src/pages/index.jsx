@@ -10,7 +10,7 @@
 //import Account  from '../components/auth/api/Account.jsx';
 import Access from '../components/auth/api/AuthAccess.jsx';
 import { useAuth } from '../components/auth/api/AuthProvider.jsx';
-import ElMobile from '../components/utilities/ElMobile.jsx';
+//import ElMobile from '../components/utilities/ElMobile.jsx';
 
 export default function PageHome() {
 
@@ -18,10 +18,14 @@ export default function PageHome() {
 
   return (
     <div>
+      <p>
+        Godot Engine Test for web socket, database save and load.
+      </p>
       <Access>
-        <label>Home, {user()}</label>
+        <label>Home, {user()} </label>
       </Access>
-      <ElMobile/>
+      
     </div>
   )
 }
+// <ElMobile/>

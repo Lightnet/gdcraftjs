@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "vite_express_server.js",
   "scripts": {
+    "start": "node vite_express_server.js",
     "dev": "node vite_express_server.js",
     "devv": "vite",
     "build": "vite build"

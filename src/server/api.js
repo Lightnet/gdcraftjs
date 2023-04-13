@@ -1,3 +1,9 @@
+/*
+  Project Name: gdcraftjs
+  License: MIT
+  Created by: Lightnet
+*/
+
 import express from 'express'
 
 import auth from "./mongoose/auth/auth.js"

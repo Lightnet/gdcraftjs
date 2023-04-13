@@ -38,6 +38,7 @@
 
 
 # ENV PATH:
+.env
 ```
 SECRET="01234567890123456789012345678901"
 DATABASE_URL=mongodb://localhost/solidtest

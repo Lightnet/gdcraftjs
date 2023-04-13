@@ -1,5 +1,5 @@
 /*
-  Project Name: solid-js-sandbox
+  Project Name: gdcraftjs
   License: MIT
   Created by: Lightnet
 */
@@ -13,7 +13,7 @@ config();
 
 //const DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost/solidtest';
 //const DATABASE_URL = 'mongodb://localhost:27017/solidtest';
-const DATABASE_URL = 'mongodb://0.0.0.0:27017/solidtest';
+const DATABASE_URL = process.env.DATABASE_URL || 'mongodb://0.0.0.0:27017/solidtest';
 //const DATABASE_URL = 'mongodb://localhost:27017';
 console.log(DATABASE_URL)
 

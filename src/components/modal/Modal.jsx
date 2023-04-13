@@ -1,5 +1,5 @@
 /*
-  Project Name: solid-js-sandbox
+  Project Name: gdcraftjs
   License: MIT
   Created by: Lightnet
 */
